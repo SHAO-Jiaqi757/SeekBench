@@ -561,7 +561,7 @@ if __name__ == "__main__":
     parser.add_argument("--data_path", type=str, required=True)
     parser.add_argument("--output_path", type=str, required=True)
     parser.add_argument("--max_new_tokens", type=int, default=500)
-    parser.add_argument("--retriever_url", type=str, default="http://10.201.8.114:8000/retrieve")
+    parser.add_argument("--retriever_url", type=str, default="http://localhost:8000/retrieve")
     parser.add_argument("--top_k", type=int, default=3)
     parser.add_argument("--max_turns", type=int, default=5)
     parser.add_argument("--val_batch_size", type=int, default=8, help="Validation batch size.")

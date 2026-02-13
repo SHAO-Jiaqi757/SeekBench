@@ -9,10 +9,19 @@
 
 - End-to-end evaluation pipeline from raw QA data to analysis figures.
 - Annotation ontology for `groundness`, recovery behavior, and calibration.
-- Three paper-aligned analysis scripts:
-  - `analysis/grounded_reason.py`
-  - `analysis/recovery.py`
-  - `analysis/calibration.py`
+
+
+<table>
+  <tr>
+   <td align="center"><img src="figs/motivating_ex.png" alt="Motivating Example" width="100%"></td>
+    <td align="center"><img src="figs/schema.png" alt="SeekBench Schema" width="100%"></td>
+   
+  </tr>
+  <tr>
+    <td> </td>
+    <td align="center"><sub>SeekBench Schema</sub></td>
+  </tr>
+</table>
 
 ## Project Structure
 
